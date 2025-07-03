@@ -689,7 +689,7 @@ export default function VideoCallApp() {
   console.log('📱 All videos:', getAllVideos().map(v => `${v.id}:${v.title}:hasStream=${!!v.stream}`))
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-black-500 to-red-600">
+    <div className="min-h-screen bg-gradient-to-br from-black-500 to-blue-900">
       <div className="container mx-auto px-4 py-8">
         <h1 className="text-4xl font-bold text-center text-white mb-8">Stealth Chat</h1>
         
